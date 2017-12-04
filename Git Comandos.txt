@@ -1,0 +1,66 @@
+D:\PROYECTOS NODEJS\CURSO_BASICO>git --version
+git version 2.14.1.windows.1
+
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git init
+Reinitialized existing Git repository in D:/PROYECTOS NODEJS/CURSO_BASICO/.git/
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git add -A
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   curso.txt
+        new file:   form_params.js
+        new file:   hello.js
+        new file:   hello_html.js
+        new file:   index.html
+        new file:   render_var.js
+
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git commit -m "Primera version"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@user-PC.(none)')
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git config user.email "ivan_cuadros1988@hotmail.com"
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git config user.name "IvanCuadrosAltamirano88"
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git commit -m "Primera version"
+[master (root-commit) f7479cd] Primera version
+ 6 files changed, 132 insertions(+)
+ create mode 100644 curso.txt
+ create mode 100644 form_params.js
+ create mode 100644 hello.js
+ create mode 100644 hello_html.js
+ create mode 100644 index.html
+ create mode 100644 render_var.js
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git remote add origin https://github.com/IvanCuadrosAltamirano88/nodejsbasico1
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>git push origin master
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.72 KiB | 1.72 MiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/IvanCuadrosAltamirano88/nodejsbasico1
+ * [new branch]      master -> master
+
+D:\PROYECTOS NODEJS\CURSO_BASICO>
